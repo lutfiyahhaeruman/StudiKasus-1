@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenius Airlines</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        * {
+            font-family: 'Gilroy-Bold', sans-serif;
+        }
+
+        .upi {
+            text-align: left;
+            margin: 7em 0;
+            padding-left: 200px; 
+            padding-right: 200px;
+            line-height: 10px;
+        }
+
+        .upi img {
+            width: 400px;
+            height: 300px;
+            float: right;
+        }
+
+        .heading-content {
+            padding-top: 15px;
+        }
+
+        .upi h1 {
+            font-size: 3.4em;
+            font-family: 'Gilroy-Bold', sans-serif;
+            font-weight: 600;
+            color: #00549C;
+        }
+
+        .upi h2 {
+            font-size: 2.2em;
+            font-family: 'Gilroy-Heavy', sans-serif;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 2%;
+        }
+
+        hr.hr1 {
+            border: 2px solid black;
+            width: 6%;
+            margin: 0%;
+            font-weight: 200;
+        }
+
+        .upi {
+            font-family: "Century Gothic";
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        .button {
+            background-color: #00549C;
+            border: none;
+            color: white;
+            padding: 12px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: "Century Gothic";
+        }
+
+        .button2 {
+            background-color: #000000;
+            border: none;
+            color: white;
+            padding: 12px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: "Century Gothic";
+            margin-left: 5%;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://i.pinimg.com/564x/02/fa/5c/02fa5cbace858ab78223022c08b92489.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+            Zenius Airlines
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="me-auto"></div>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <main class="content">
+            <section class="upi">
+                <img src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/discovery-desktop/promo/2022/11/24/b7da3061-cd23-473f-90b2-e33deb88e917-1669279691252-0f9f706af8dc5cbaa9b60a2f67af152c.png">
+                    <div class="heading-content">
+                        <h1>DISKON TANGGAL MUDA!</h1>
+                        <h2>Diskon Tiket Pesawat Hingga RP 300,000-*</h2>
+                        <hr class="hr1">
+                        <p>*Syarat dan Ketentuan berlaku</p>
+                        <button class="button">Order Now</button>
+                    </div>
+            </section>
+        </main>
+    <div>
+        <i class="fa-solid fa-angles-down fa-5x d-flex justify-content-center mb-5"></i>
+    </div>
+
+    <div class="d-flex justify-content-center mb-3">
+        <div class="dropdown me-5">
+            <button type="button" class="btn button btn-primary dropdown-toggle" data-toggle="dropdown" style="background-color: rgba(27,117,187)">
+            Departure
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Jakarta</a>
+                <a class="dropdown-item" href="#">Batam</a>
+            </div>
+        </div>
+
+        <div class="dropdown me-5">
+            <button type="button" class="btn button btn-primary dropdown-toggle" data-toggle="dropdown" style="background-color: rgba(27,117,187)">
+            Arrival
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Bali</a>
+                <a class="dropdown-item" href="#">Jakarta</a>
+            </div>
+        </div>
+
+        <div class="dropdown me-5">
+            <button type="button" class="btn button btn-primary dropdown-toggle" data-toggle="dropdown" style="background-color: rgba(27,117,187)">
+            Airline
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Zenius Airlines</a>
+            </div>
+        </div>
+
+        <button class="btn">
+            <svg xmlns="https://i.pinimg.com/564x/02/fa/5c/02fa5cbace858ab78223022c08b92489.jpg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg> 
+        </button>
+    </div>
+
+    <div>
+        <div class="d-flex justify-content-center">
+            <div class="card-deck mb-3 text-center">
+                <div class="card card-1 mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">IDR 1.099.000/pax</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="card-body ms-2 me-2">
+                            <img class="navbar-brand" src="https://i.pinimg.com/564x/02/fa/5c/02fa5cbace858ab78223022c08b92489.jpg" style="width:90px ;">
+                        </div>      
+                            <div class="align-self-center ms-3 me-3">08:15
+                                <br>Jakarta
+                            </div>
+                            <div class="align-self-center ms-3 me-3">
+                                <i class="fa-solid fa-angle-right fa-4x"></i>
+                            </div>
+                            <div class="align-self-center">10.15
+                                <br>Batam
+                            </div>
+                        <div class="align-self-center ms-4 me-4 mb-2">November 7th 2022
+                            <div class="align-self-end ms-4 me-4 mt-3"> 
+                                <button type="button" class="btn btn-primary">PILIH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-1 mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">IDR 899.000/pax</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="card-body ms-2 me-2">
+                            <img class="navbar-brand" src="https://i.pinimg.com/564x/02/fa/5c/02fa5cbace858ab78223022c08b92489.jpg" style="width:90px ;">
+                        </div>      
+                            <div class="align-self-center ms-3 me-3">19:15
+                                <br>Bali
+                            </div>
+                            <div class="align-self-center ms-3 me-3">
+                                <i class="fa-solid fa-angle-right fa-4x"></i>
+                            </div>
+                            <div class="align-self-center">21:30
+                                <br>Jakarta
+                            </div>
+                        <div class="align-self-center ms-4 me-4 mb-2">Desember 5st 2022
+                            <div class="align-self-end ms-4 me-4 mt-3"> 
+                                <button type="button" class="btn btn-primary">PILIH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-1 mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">IDR 750.000/pax</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="card-body ms-2 me-2">
+                            <img class="navbar-brand" src="https://i.pinimg.com/564x/02/fa/5c/02fa5cbace858ab78223022c08b92489.jpg" style="width:90px ;">
+                        </div>      
+                            <div class="align-self-center ms-3 me-3">10.00
+                                <br>Jakarta
+                            </div>
+                            <div class="align-self-center ms-3 me-3">
+                                <i class="fa-solid fa-angle-right fa-4x"></i>
+                            </div>
+                            <div class="align-self-center">11:30
+                                <br>Yogyakarta
+                            </div>
+                        <div class="align-self-center ms-4 me-4 mb-2">Oktober 2th 2022
+                            <div class="align-self-end ms-4 me-4 mt-3"> 
+                                <button type="button" class="btn btn-primary">PILIH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bd-footer" style="background-color: #00549C; color: #f9f9f9;">
+            <div class="container py-4 py-md-5 px-4 px-md-3">
+                <div class="row mb-0">
+                    <div class="col-lg-3 mb-3">
+                        <img src="https://i.pinimg.com/564x/02/fa/5c/02fa5cbace858ab78223022c08b92489.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+                        Zenius Airlines
+                        <ul class="list-unstyled text-white">
+                            <li class="mt-3">+62 852 1000 5000</li>
+                            <li class="">Tangerang, Indonesia</li>
+                        </ul>
+                    </div>
+                    <div class="col-9">
+                        <div class="row d-flex justify-content-end">
+                            <div class="col-2">
+                                <a class="nav-link text-white" href="#">Menu 1</a>
+                            </div>
+                            <div class="col-2">
+                                <a class="nav-link text-white" href="#">Menu 2</a>
+                            </div>
+                            <div class="col-2">
+                                <a class="nav-link text-white" href="#">Menu 3</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-0">
+                    <p class="text-center text-white">© 2022 Zenius Airlines. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
